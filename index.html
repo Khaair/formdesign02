@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+
+	<style>
+	*{
+		margin: 0px;
+		padding: 0px;
+
+		}
+		body{
+			   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    	
+    	
+		}
+
+
+    .div1{
+    	display: flex;
+    	justify-content: center;
+    	margin-top: 50px;
+
+    	 
+      
+    }
+	.container{
+		
+		
+		width: 330px;
+		height: 480px;
+		background-color: #F2F2F2;
+		padding: 30px;
+		box-shadow: 1px 2px 4px  black;
+		border-radius: 20px;
+
+		}
+
+	.name{
+		font-size: 20px;
+
+
+	}
+
+	.text{
+		width: 300px;
+		height: 40px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		padding-left: 15px;
+	
+	
+	}
+    .text:hover{
+    	background-color: #90EE90;
+    }
+	.btn{
+		background-color: green;
+	    width: 330px;
+		height: 50px;
+		margin-top: 30px;
+		border-radius: 4px;
+		border: none;
+		cursor: pointer;
+		color: white;
+		font-size: 20px;
+		font-family: sans-serif;
+	}
+    .btn:hover{
+    	background-color: #951EE9;
+    	}
+    	h2{
+    		text-align: center;
+    		padding-bottom: 10px;
+    	}
+    	p{
+    		text-align: center;
+    		margin-top: 10px;
+    	}
+
+		
+
+	</style>
+    
+</head>
+<body>
+	<div class="div1">
+	<div class="container">
+		<h2>Registration Form</h2>
+	<form>
+		<label class="name">First Name</label>
+		<br>
+		<input class="text" type="text" name="" placeholder="First Name">
+		<br>
+
+		<label class="name">Last Name</label>
+		<br>
+		<input class="text" type="text" name="" placeholder="Last Name">
+		<br>
+
+		<label class="name">Father Name</label>
+		<br>
+		<input class="text" type="text" name="" placeholder="Father Name">
+		<br>
+		<label class="name">Country</label>
+		<br>
+		<select class="text">
+			<option>USA</option>
+			<option>Canada</option>
+			<option>Bangladesh</option>
+		</select>
+		<br>
+
+		<div>
+			<label class="name">Select Gender</label>
+			<br>
+			<input type="radio" id="male" name="gender" value="male">
+             <label for="male">Male</label><br>
+             <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+             <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+		</div>
+
+		<button class="btn">SUBMIT</button>
+		<p>Already have an account?<a href="#">Sign In</a></p>
+	</form>
+	</div>
+	</div>
+
+</body>
+</html>
